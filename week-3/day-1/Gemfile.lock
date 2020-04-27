@@ -15,6 +15,9 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
+    text-hyphen (1.4.1)
+    textstat (0.1.6)
+      text-hyphen (~> 1.4, >= 1.4.1)
     tilt (2.0.10)
 
 PLATFORMS
@@ -23,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   nyancat (~> 0.2.1)
   sinatra (~> 2.0, >= 2.0.8.1)
+  textstat (~> 0.1.6)
 
 BUNDLED WITH
    2.1.4
