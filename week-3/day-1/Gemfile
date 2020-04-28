@@ -7,3 +7,5 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 gem 'nyancat', '~> 0.2.1'
 
 gem 'sinatra', '~> 2.0', '>= 2.0.8.1'
+
+gem 'textstat', '~> 0.1.6'
