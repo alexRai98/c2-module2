@@ -1,7 +1,11 @@
-
-def read_me
-    File.open("my_name.txt").each{
-        |line| puts line
-    }
+class ReadMe
+    def read_me(file)
+        if File.open(file).each{
+            |line| puts line
+            }
+            true
+        else
+            false
+        end
+    end
 end
-read_me()
